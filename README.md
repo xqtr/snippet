@@ -94,23 +94,3 @@ user is a sysop and has full access. In the future, other levels will be
 added, to allow users with restricted access ex: only insert records, but not
 delete.
 </code>
-<code>
-
-   _            _   _              ___          _    _       
-  /_\  _ _  ___| |_| |_  ___ _ _  |   \ _ _ ___(_)__| |               8888
- / _ \| ' \/ _ \  _| ' \/ -_) '_| | |) | '_/ _ \ / _` |            8 888888 8
-/_/ \_\_||_\___/\__|_||_\___|_|   |___/|_| \___/_\__,_|            8888888888
-                                                                   8888888888
-         DoNt Be aNoTHeR DrOiD fOR tHe SySteM                      88 8888 88
-                                                                   8888888888
-    .o HaM RaDiO    .o ANSi ARt!       .o MySTiC MoDS              "88||||88"
-    .o NeWS         .o WeATheR         .o FiLEs                     ""8888""
-    .o GaMeS        .o TeXtFiLeS       .o PrEPardNeSS                  88
-    .o TuTors       .o bOOkS/PdFs      .o SuRVaViLiSM          8 8 88888888888
-    .o FsxNet       .o SurvNet         .o More...            888 8888][][][888
-                                                               8 888888##88888
-   TeLNeT : andr01d.zapto.org:9999 [UTC 11:00 - 20:00]         8 8888.####.888
-   SySoP  : xqtr                   eMAiL: xqtr@gmx.com         8 8888##88##888
-   PaYPaL : paypal.me/xqtr
-
-</code>
