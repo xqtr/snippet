@@ -1,4 +1,5 @@
 # snippet
+<code>
 
                  ____  _      _  ____  ____  _____ _____ 
                 / ___\/ \  /|/ \/  __\/  __\/  __//__ __\
@@ -112,3 +113,4 @@ delete.
    SySoP  : xqtr                   eMAiL: xqtr@gmx.com         8 8888##88##888
    PaYPaL : paypal.me/xqtr
 
+</code>
