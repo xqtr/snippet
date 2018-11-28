@@ -2,18 +2,6 @@ program snippet;
 {$Mode objfpc}
 {$PACKRECORDS 1} 
 
-{
-* var
-  BlobStream : TStream;
-begin
-    Screen.Cursor:= crSQLWait;
-    BlobStream := CreateBlobStream(SQLQuery1.FieldByName('Contents'),bmRead);
-    BlobStream.Position:= 0;
-    Image1.Picture.LoadFromStream(BlobStream);
-    Screen.Cursor:= crDefault;
-    BlobStream.Free;
-  end}
-
 Uses
   {$IFDEF DEBUG}
     LineInfo,
@@ -1071,27 +1059,6 @@ begin
   until res=RESC;
   
 end;  
-
-procedure WriteHelp;
-begin
-  WriteLn('');
-  setTextAttr(14);
-  WriteLn(' ____  _____ _____ ____   ___   ____    _    __  __ _____ ____  ');
-  WriteLn('|  _ \| ____|_   _|  _ \ / _ \ / ___|  / \  |  \/  | ____/ ___| ');
-  WriteLn('| |_) |  _|   | | | |_) | | | | |  _  / _ \ | |\/| |  _| \___ \ ');
-  WriteLn('|  _ <| |___  | | |  _ <| |_| | |_| |/ ___ \| |  | | |___ ___) |');
-  WriteLn('|_| \_\_____| |_| |_| \_\\___/ \____/_/   \_\_|  |_|_____|____/ ');
-  WriteLn('                                        Version '+Appver);
-  WriteLn('');
-  SetTextAttr(7);
-  WriteLn(' Thousands of retro games inside your BBS');
-  WriteLn(' Usage:');
-  WriteLn('    retrogames <door/32 filename>');
-  WriteLn('');
-  WriteLn(' Example:');
-  WriteLn('    retrogames /bbs/node1/door.sys');
-  WriteLn('');
-end;
 
 Procedure ExitApp(cl:boolean);
 Begin
