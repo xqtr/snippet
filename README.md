@@ -93,8 +93,8 @@ job.
 user is a sysop and has full access. In the future, other levels will be
 added, to allow users with restricted access ex: only insert records, but not
 delete.
-
-=---------------------------------------------------------------------------=
+</code>
+<code>
 
    _            _   _              ___          _    _       
   /_\  _ _  ___| |_| |_  ___ _ _  |   \ _ _ ___(_)__| |               8888
